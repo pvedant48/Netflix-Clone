@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 95vh;
+    width: 100%;
+    background-image: url(assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+}
+
+.main nav {
+    display: flex;
+    height: 94px;
+    width: 77.5vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main nav img {
+    width: 153px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.main nav button {
+    position: relative;
+    z-index: 5;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.subscribe {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 94px);
+    gap: 11px;
+    text-align: center;
+    padding: 0 3px;
+}
+
+.subscribe .line1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe .line2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.line3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email {
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.email input {
+    color: #fff;
+    width: min(90vw, 355px);
+    border: 1px solid gray;
+    padding: 13px 25px 13px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.567);
+
+}
+
+.separation {
+    height: 8px;
+    background-color: #232323;
+    position: relative;
+    z-index: 2;
+}
+
+.btn {
+    color: white;
+    padding: 5px 22px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.564);
+    border-radius: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.red-btn-sm {
+    background-color: red;
+    padding: 5px 13px;
+    border: none;
+    border-radius: 4px;
+}
+
+.red-btn {
+    background-color: red;
+    padding: 7px 26px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.options {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 160px;
+}
+
+.options .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 50%;
+    width: 50%;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.scroll {
+    width: 46%;
+    height: 100%;
+    position: relative;
+}
+
+.scroll img {
+    width: 555px;
+    position: absolute;
+}
+
+.scroll video {
+    position: absolute;
+    width: 413px;
+    top: 83px;
+    left: 70px;
+    z-index: -1;
+}
+
+#pile {
+    position: absolute;
+    width: 355px;
+    top: 22px;
+    left: 92px;
+    z-index: -1;
+}
+
+.faq {
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+.faq h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    font-size: 24px;
+    max-width: 74vw;
+    height: 28px;
+    text-align: left;
+    margin: 7px auto;
+    padding: 28px;
+    cursor: pointer;
+}
+
+.mem {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 41px;
+}
+
+footer {
+    color: #9c9c9c;
+    padding: 14px;
+    margin: auto;
+    max-width: 77vw;
+}
+
+.ques {
+    padding: 34px 0;
+    font-size: 16px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fitems {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.fitems a {
+    color: #9c9c9c;
+    font-size: 14px;
+}
