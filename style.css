@@ -251,14 +251,8 @@ footer {
     font-size: 14px;
 }
 
-@media screen and (max-width:1000px) {
-    .options {
-        flex-direction: column;
-        height: 100vh;
-    }
-}
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:1000px) {
     .main nav{
         width: 94.5vw;
     }
