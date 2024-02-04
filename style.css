@@ -146,6 +146,7 @@ body {
     justify-content: center;
     flex-direction: column;
     color: white;
+    z-index: 2;
     height: 50%;
     width: 50%;
 }
@@ -161,7 +162,7 @@ body {
 }
 
 .scroll {
-    width: 46%;
+    width: 555px;
     height: 100%;
     position: relative;
 }
@@ -248,4 +249,64 @@ footer {
 .fitems a {
     color: #9c9c9c;
     font-size: 14px;
+}
+
+@media screen and (max-width:1000px) {
+    .options {
+        flex-direction: column;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .main nav{
+        width: 94.5vw;
+    }
+    .options {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .subscribe .line1 {
+        font-size: 32px;
+    }
+    
+    .subscribe .line2 {
+        font-size: 16px;
+    }
+    
+    .line3 {
+        font-size: 14px;
+    }
+    .email {
+        flex-direction: column;
+    }
+
+    .options .text {
+        width: 100vw;
+        text-align: center;
+        gap:24px
+
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+    }
+
+    .faqbox{
+        font-size: 18px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
